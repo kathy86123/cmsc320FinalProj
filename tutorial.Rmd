@@ -1,1 +1,36 @@
 
+
+##data curation, parsing, and management; 
+```{r data prep}
+
+data <- read.csv("Police_Department_Incidents_-_Previous_Year__2016_.csv")
+data
+
+```
+
+
+##exploratory data analysis; 
+```{r data prep}
+
+
+```
+
+
+
+##hypothesis testing and machine learning to provide analysis; 
+
+```{r data prep}
+
+
+```
+
+
+
+
+
+
+##and then the curation of a message or messages covering insights learned during the tutorial.
+```{r data prep}
+
+
+```
