@@ -11,7 +11,7 @@ data
 
 ##exploratory data analysis; 
 ```{r data prep}
-something
+
 
 ```
 
