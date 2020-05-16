@@ -1,4 +1,18 @@
 
+```{r libraries}
+
+library(tidyverse)
+library(lubridate)
+
+library(gridExtra)
+library(ggplot2)
+library(leaflet)
+library(RColorBrewer)
+
+library(caret)
+
+```
+
 
 ##data curation, parsing, and management; 
 ```{r data prep}
@@ -9,9 +23,13 @@ data
 ```
 
 
-##exploratory data analysis; 
-```{r data prep}
+## Exploratory Data Analysis
 
+```{r data_analysis, include=TRUE, eval=TRUE}
+map <- leaflet(data) %>%
+  addTiles() %>%
+  setView(lat=37.773972, lng=-122.431297, zoom=11)
+map
 
 ```
 
